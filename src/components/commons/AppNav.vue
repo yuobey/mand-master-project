@@ -14,8 +14,8 @@ export default {
         return {
             navs: [
                 { id: 1, title: '首页', icon: 'home', name: 'home'},
-                { id: 2, title: '分类', icon: 'bullseye', name: 'classify'},
-                { id: 3, title: '我的', icon: 'user-circle-o', name: 'mind'}
+                { id: 2, title: '分类', icon: 'list', name: 'classify'},
+                { id: 3, title: '我的', icon: 'user-circle', name: 'mind'}
             ]
         }
     }
