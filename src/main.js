@@ -10,13 +10,17 @@ import router from './router'
 //全局的配置
 import './modules/config'
 
-
+//vuex
+import store from './store'
 /* eslint-disable no-new */
 //根实例
 new Vue({
   el: '#app',
+  components: {
+    App
+  },
   router,
-  components: { App },
-   // 因为根实例里其实仅仅只放入了根组件，所以可以这样指定根实例的模板就是根组件
+  store,
+  // 因为根实例里其实仅仅只放入了根组件，所以可以这样指定根实例的模板就是根组件
   template: '<App/>'
 })

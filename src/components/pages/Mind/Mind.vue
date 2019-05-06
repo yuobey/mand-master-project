@@ -1,6 +1,5 @@
 <template>
   <div id="app-mind" class="page">
-
     我的
     <app-nav></app-nav>
     <!-- 全局组件里已经注册过 所以这里不用单个像下面一样引入 -->
